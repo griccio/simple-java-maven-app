@@ -6,8 +6,8 @@ package com.mycompany.app;
 public class App
 {
 
-    private final String message = "Hello World  first changement!";
-
+    private final String message = "Hello World  second changement!";
+    
     public App() {}
 
     public static void main(String[] args) {
