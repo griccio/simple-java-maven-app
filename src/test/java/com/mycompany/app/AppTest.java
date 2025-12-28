@@ -34,7 +34,7 @@ public class AppTest
     {
         App.main(null);
         try {
-            assertTrue();
+           assertEquals(outContent.toString().length() >0);
         } catch (AssertionError e) {
             fail("\"message\" is not \"Hello World!\"");
         }
